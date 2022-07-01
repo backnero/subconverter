@@ -1,0 +1,5 @@
+build:
+   docker:
+      subconverter: Dockerfile
+run:
+   subconverter: docker run -d -p 25500:25500 exporte
